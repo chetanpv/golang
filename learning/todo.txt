@@ -1,0 +1,8 @@
+files
+    read files
+    write to files
+    write from array, slices, maps
+environmental variables
+json
+context
+select
