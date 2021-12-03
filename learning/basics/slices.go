@@ -31,9 +31,9 @@ func Slices() {
 	fmt.Println("cpy:", c) // cpy: [a b c d e]
 
 	// -------------------------------------- Slicing the slice --------------------------------------
-	fmt.Println(c[2:])  // [c d e]
-	fmt.Println(c[1:3]) // [b c]
-	fmt.Println(c[:3])  // [a b c]
+	fmt.Println(c[2:])  // [c d e] - last 2 elements
+	fmt.Println(c[1:3]) // [b c]   - 2,3 elements
+	fmt.Println(c[:3])  // [a b c] - first 3 elements
 
 	// -------------------------------------- Iterate over slice --------------------------------------
 	for index, value := range c {

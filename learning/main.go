@@ -3,8 +3,7 @@ package main
 //import basics "learning/basics"
 
 import (
-	// "fmt"
-	snippets "learning/snippets"
+	"learning/revision/channels"
 )
 
 func main() {
@@ -26,7 +25,7 @@ func main() {
 	//basics.GoRoutines()
 	//basics.Channels()
 
-	snippets.ReversePrint()
+	//snippets.ReverseArr()
 	//snippets.RemoveDup()
 	//snippets.Sorting()
 	//snippets.AddRemoveSlice()
@@ -35,5 +34,34 @@ func main() {
 	//snippets.NumberOcc()
 	//snippets.CharOcc()
 	//snippets.Vowels()
+	//snippets.Stacks()
+	//snippets.SumOfTwoNums()
+	//snippets.Sets()
+	// snippets.SubString()
+	//snippets.BufChan()
+	// snippets.ChanOddEven()
 
+	//revision.Array()
+	//revision.Map()
+	// revision.Channel()
+	//revision.Structs()
+	// revision.Interfaces()
+	//revision.Stacks()
+	//revision.Queues()
+	// revision.LinkedLists()
+
+	//channels.Unbuffered()
+	//channels.UnbufferedLoop()
+	//channels.Buffered()
+	//channels.MulGoRoutines()
+	//channels.UniDirectional()
+	//channels.Select()
+	//channels.Timeouts()
+	//channels.Waitgroups()
+	channels.FanIntoOneChannel()
+
+	//errorhandling.PanicDefer()
+	//errorhandling.RecoverFromPanic()
+
+	//revision.Delme()
 }

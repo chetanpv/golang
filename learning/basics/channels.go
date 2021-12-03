@@ -6,6 +6,7 @@ import "fmt"
 func Channels() {
 	// ------------------------------------ Simple channel example ------------------------------------
 	mych1 := make(chan string)
+	// Function needs to be called first else you are sending something to a channel without receiver
 	go tryOne(mych1)
 
 	// Note: We already called the go routine without sending any data

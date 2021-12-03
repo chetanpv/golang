@@ -23,4 +23,10 @@ func Loop() {
 		fmt.Println("Hello")
 		break
 	}
+
+	// This is possible too
+	for j:=0 ; j < 5; {
+		// do something
+		j++
+	}
 }

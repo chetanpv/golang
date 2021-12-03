@@ -21,4 +21,9 @@ func Maps() {
 	for index, value := range myMap4 {
 		fmt.Println(index, value)
 	}
+
+	// ----------------------------------- Check if value is present -----------------------------------
+	if val, ok := myMap1["Chetan"]; ok {
+		fmt.Println("Value present: ", val)
+	}
 }

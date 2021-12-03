@@ -30,11 +30,8 @@ func Arrays() {
 	// var e [...]int // use of [...] array outside of array literal
 	// e[0] = 10
 
-	// d := [...]int{1, 2, 3, 4, 5, "a"} // files\arrays.go:22:31: cannot convert "a" (type untyped string) to type int
-	// fmt.Println(d)
-
 	//  -------------------------------------- Adding an element --------------------------------------
-	// As arrays are already defined we can just do c[2] = 200 , cannot actually extra element
+	// As arrays are already defined we can just edit index, c[2] = 200 , cannot actually append element
 
 	// -------------------------------------- Removing an element in an array --------------------------------------
 	// You need not remove element from array as such because space is already
@@ -63,7 +60,7 @@ func Arrays() {
 		*/
 	}
 
-	// Array comparision
+	// Array comparison
 	var f [2]int
 	f[0] = 5
 	var g [2]int
